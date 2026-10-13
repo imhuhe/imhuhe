@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <title>H circular avatar</title>
+  <circle cx="512" cy="512" r="480" fill="#ffffff" stroke="#000000" stroke-width="19.2"/>
+  <text x="512" y="512" fill="#000000" font-family="Didot, Bodoni 72, Georgia, Times New Roman, serif" font-size="590" font-weight="400" text-anchor="middle" dominant-baseline="central">H</text>
+</svg>

@@ -1,0 +1,23 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+  :root { --ink:#0C0C0C; --gray:#6B7075; --hair:#C2C7CC; --accent:#A8791F; --tint:#F7F2E6; }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  html,body { width:1280px; height:320px; background:var(--tint); overflow:hidden; }
+  .wrap { position:relative; width:1280px; height:320px; display:flex; align-items:center; padding:0 96px; gap:48px; }
+  .logo { width:150px; height:150px; flex:none; }
+  .txt { flex:1; }
+  .wm { height:34px; display:block; }
+  .zh { margin-top:26px; font:500 28px/1.35 "Songti SC", serif; color:var(--ink); letter-spacing:.05em; }
+  .en { margin-top:12px; font:400 17px/1.4 Georgia, serif; font-style:italic; color:var(--gray); }
+  .bar { position:absolute; left:96px; bottom:0; width:120px; height:5px; background:var(--accent); }
+</style></head>
+<body><div class="wrap">
+  <img class="logo" src="logo-circle.svg">
+  <div class="txt">
+    <img class="wm" src="logo-wordmark.svg">
+    <div class="zh">从事投融资和产业项目，正在构建个人 AI 体系。</div>
+    <div class="en">Investment and industrial projects. Building a personal AI system.</div>
+  </div>
+  <div class="bar"></div>
+</div></body></html>
